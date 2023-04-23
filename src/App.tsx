@@ -14,14 +14,6 @@ const getDaysInMonth = (year: number, month: number): number => {
   return new Date(year, month, 0).getDate();
 }
 
-const getRemainingDays = (month: number) => {
-  const date = new Date();
-  const time = new Date(date.getTime());
-  time.setMonth(month - 1);
-  time.setDate(0);
-  return time.getDate() > date.getDate() ? time.getDate() - date.getDate() : 0 + 1;
-}
-
 const daysGenerator = (year: number, _month: number) => {
   const month = [];
   for (let i = _month; i < 6; i++) {
@@ -65,13 +57,13 @@ const App: FC = () => {
           if (index === days.length - 1)
             return <div className='chipi'>
                {entry.month} {entry.day}
-              <img src="/images/sara_cartoon.png" />
+              <img alt='sara' src="./../public/images/sara_cartoon.png" />
             </div>
           return (entry.day === todayDay && entry.month === getMonthName(currentMonth)) ?
             <div className='chipi' key={index}>
               {entry.month} {entry.day}
-              <img src="/images/me_on_plane_cartoon.png" />
-            </div> : <DateCard key={index} isPassed={(entry as any).monthNumber < currentMonth || ((entry as any).monthNumber == currentMonth && entry.day < todayDay)} day={entry.day} month={entry.month}></DateCard>
+              <img alt='abdo' src="/sara-abdo/public/images/me_on_plane_cartoon.png" />
+            </div> : <DateCard key={index} isPassed={(entry as any).monthNumber < currentMonth || ((entry as any).monthNumber === currentMonth && entry.day < todayDay)} day={entry.day} month={entry.month}></DateCard>
         })}
 
       </div>
