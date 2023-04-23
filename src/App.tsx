@@ -55,14 +55,13 @@ const App: FC = () => {
 
         {days.map((entry, index) => {
           if (index === days.length - 1)
-            return <div className='chipi'>
-               {entry.month} {entry.day}
-              <img alt='sara' src="./../public/images/sara_cartoon.png" />
+            return <div className='chipi sara'>
+              {entry.month} {entry.day}
             </div>
           return (entry.day === todayDay && entry.month === getMonthName(currentMonth)) ?
-            <div className='chipi' key={index}>
+            <div className='chipi abdo' key={index}>
               {entry.month} {entry.day}
-              <img alt='abdo' src="/sara-abdo/public/images/me_on_plane_cartoon.png" />
+
             </div> : <DateCard key={index} isPassed={(entry as any).monthNumber < currentMonth || ((entry as any).monthNumber === currentMonth && entry.day < todayDay)} day={entry.day} month={entry.month}></DateCard>
         })}
 

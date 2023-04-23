@@ -1,17 +1,17 @@
-.chipi{
-   margin: 5px;
-   background-color: skyblue;
-   /* opacity: 0.7; */
-   border-radius: 5px;
-   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   padding: 20px;
-   position: relative;
-   width: 100px;
-   height: 100px;
-}   
+.chipi {
+    margin: 5px;
+    background-color: skyblue;
+    /* opacity: 0.7; */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
 .container {
     margin: 100px 100px;
     font-family: cursive;
@@ -20,56 +20,71 @@
     .container {
         margin: 5px 5px;
     }
-    .chipi{
+    .chipi {
         text-align: center;
         width: 100%;
     }
-    .chipi img{
+    .chipi img {
         height: 100px;
         width: 100px;
     }
 }
 
-
-
-.d-flex{
+.d-flex {
     display: flex;
     justify-content: space-between;
 }
-.flex-start{
+.flex-start {
     display: flex;
     justify-content: flex-start;
 }
-.flex-between{
+.flex-between {
     display: flex;
     justify-content: space-between;
 }
-.flex-center{
+.flex-center {
     display: flex;
     justify-content: center;
 }
-.flex-column{
+.flex-column {
     display: flex;
     flex-direction: column;
 }
-.flex-row{
+.flex-row {
     display: flex;
     flex-direction: row;
 }
-.flex-wrap{
+.flex-wrap {
     flex-wrap: wrap;
 }
-.remaining-days{
-    color:purple;
-    font-size:medium;
+.remaining-days {
+    color: purple;
+    font-size: medium;
 }
 .center {
     text-align: center;
 }
-.container h1,.container h3{
+.container h1,
+.container h3 {
     background-color: lightcyan;
     padding: 10px;
     color: black;
     border-radius: 5px;
+}
+/* import abdo from  '/src/images/abdo_cartoon.png';
+import sara from  '/src/images/sara_cartoon.png'; */
 
+.sara {
+    font-size: small;
+    background-image: url("../public/images/sara_cartoon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.abdo {
+    font-size: small;
+    color: white;
+    background-image: url("../public/images/me_on_plane_cartoon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
