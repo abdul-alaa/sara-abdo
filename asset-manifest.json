@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/sara-abdo/static/css/main.79c0765c.css",
-    "main.js": "/sara-abdo/static/js/main.7014b54a.js",
+    "main.css": "/sara-abdo/static/css/main.a421d78a.css",
+    "main.js": "/sara-abdo/static/js/main.fe2b3502.js",
+    "static/media/sara_cartoon.png": "/sara-abdo/static/media/sara_cartoon.b44f121fd381490f4c2e.png",
+    "static/media/me_on_plane_cartoon.png": "/sara-abdo/static/media/me_on_plane_cartoon.085d25b56bcf4e7e0270.png",
     "static/media/pexels-photo-169196.jpeg": "/sara-abdo/static/media/pexels-photo-169196.2cda814d2aaa6bdc16fa.jpeg",
     "index.html": "/sara-abdo/index.html",
-    "main.79c0765c.css.map": "/sara-abdo/static/css/main.79c0765c.css.map",
-    "main.7014b54a.js.map": "/sara-abdo/static/js/main.7014b54a.js.map"
+    "main.a421d78a.css.map": "/sara-abdo/static/css/main.a421d78a.css.map",
+    "main.fe2b3502.js.map": "/sara-abdo/static/js/main.fe2b3502.js.map"
   },
   "entrypoints": [
-    "static/css/main.79c0765c.css",
-    "static/js/main.7014b54a.js"
+    "static/css/main.a421d78a.css",
+    "static/js/main.fe2b3502.js"
   ]
 }
